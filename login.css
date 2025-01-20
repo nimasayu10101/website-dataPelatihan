@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    background-color: #222;
+}
+
+#utama {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 12%;
+}
+
+#header {
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    background-color: #FF6347; /* Warna merah */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 3px solid #FF4500; /* Warna merah lebih gelap */
+}
+
+#inputan {
+    padding: 10px;
+    border: 1px solid #FF4500; /* Tambah border warna merah */
+    background-color: #fff; /* Warna latar putih untuk input */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #FF4500; /* Border merah */
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.log {
+    width: 240px;
+}
+
+.lg {
+    width: 260px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #FF6347; /* Tombol merah */
+    color: #fff;
+    border: none;
+    text-align: center;
+}
+
+.lg:hover {
+    background-color: #FF4500; /* Warna merah lebih gelap saat hover */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
